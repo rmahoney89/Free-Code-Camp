@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css">
+ </head>
+
+<body id="main">
+  
+  <h1 id="title">freeCodeCamp Survey Form</h1> 
+  
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  
+ <div id="entire-form"> 
+  <form id="survey-form">
+    
+   <div id="name-input">
+    <label for="name" id="name-label">Name</label>
+     
+     <br>
+    
+      <input id="name" required type="text" placeholder="Enter your name" name="form">
+    </div>
+    
+    <div id="email-input">
+    <label for="email" id="email-label">Email</label>
+    
+      <br>
+      
+    <input type="email" required id="email" placeholder="Email">
+    </div>
+    
+    <div id="age-input">
+      <label for="Age" id="number-label">Age: <i>(optional)</i></label>
+
+      <br>
+      
+   <input type="number" id="number" placeholder="Age" min="0" max="999">
+    </div>
+    <br>
+    
+    <div id="current-role">
+      <label for="current-role">Which option best describes your current role?</label>
+      
+      <br>
+      
+      <select id="dropdown" name="current">
+        <option value="student">Student</option>
+        <option value="full time job">Full Time Job</option>
+        <option value="full time learner">Full Time Learner</option>
+        <option value="prefer not to say">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+   
+    <div id="rec">
+    <label for="recommend" id="rec-label">Would you recomment freeCodeCamp to a friend?</label>
+      <br>
+    <input value="definitely" id="definitely" type="radio" name="rec">Definitely
+      <br>
+      <input value="definitely" id="maybe" type="radio" name="rec">Maybe
+      <br>
+      <input value="definitely" id="not-sure" type="radio" name="rec">Not sure
+    </div>
+    
+ <div id="improvements">
+      <label for="improvements">What would you like to see improved?</label>
+    <br>
+    <input for="projects" value="projects" id="projects" name="improvements" type="checkbox">Projects
+      <br>
+      <input for="challenges" value="challenges" id="challenges" name="improvements" type="checkbox">Challenges
+      <br>
+      <input for="community" value="community" id="community" name="improvements" type="checkbox">Community
+      <br>
+      <input for="open-source" value="open-source" id="open-source" name="improvements" type="checkbox">Open Source
+    </div>
+    
+    <div id="comments">
+      <label for="comments" id="ad-com">Any additional comments?</label>  
+    <textarea id="additional-comments" placeholder="Enter comments here">
+    </textarea>
+    </div>
+      <br>
+    
+    <div id="button" class="button">
+    <button id="submit" type="submit"><strong>Submit</strong></button>   
+  </div>
+  
+    </div>   
+  </form>
+  
+   <div id="footer">Page content from fcc project - all code my own</div>
+</body>
+</html>

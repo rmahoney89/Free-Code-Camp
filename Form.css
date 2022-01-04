@@ -1,0 +1,56 @@
+body {
+ background-image: url("https://i1.wp.com/www.burning-glass.com/wp-content/uploads/coding_400x267-1.jpg?resize=400%2C267&ssl=1");
+ background-size: cover;
+ background-color: purple;
+}
+
+h1, p {
+  color: white;
+  background: #001f27;
+  text-align: center;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+}
+
+form {
+  background-color: #001f27;
+  color: white;
+  opacity: 0.8;
+  font-size: 24px;
+  margin: 20px 350px 20px 350px;
+}
+
+/*div id*/#name-input, #email-input, #age-input, #current-role, #rec, #favorite, #improvements, #comments {
+ margin: 18px;
+}
+
+/*input id*/#name, #email, #number, #dropdown, #favorite-options {
+  width: 540px;
+  height: 26px;
+  font-size: 18px;
+}
+
+#additional-comments {
+  width: 540px;
+  height: 60px;
+  font-size: 18px;
+}
+
+button, #button {
+  height: 40px;
+  width: 590px;
+  font-size: 20px;
+  background-color: #01a263;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  color: white;
+  text-align: center;
+}
