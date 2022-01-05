@@ -1,0 +1,201 @@
+.background {
+  background-image: url("http://sfwallpaper.com/images/light-textured-background-2.jpg");
+background-size: cover;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9e076
+}
+
+img {
+  width: 400px;
+  float: left;
+}
+
+ul {
+  float: right;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 10px 0px 10px 30px;
+  }
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+li {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+h1 {
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+#email {
+  height: 40px;
+  width: 300px;
+}
+
+#submit {
+  padding: 8px 20px 8px 20px;
+  margin: 10px;
+  background-color: #fed000
+}
+
+.container {
+  
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 0px;
+  align-items: center;
+  justify-items: start;
+  grid-template-areas:
+     "img product"
+     "img2 shipping"
+     "img3 qa";
+}
+
+.img { grid-area: img; }
+.product { grid-area: product; }
+.img2 { grid-area: img2; }
+.img3 { grid-area: img3; }
+.shipping { grid-area: shipping; }
+.qa { grid-area: qa; }
+
+
+#img {
+  height: 100px;
+  width: 100px;
+}
+
+#img2 {
+  height: 60px;
+  width: 80px;
+}
+
+#img3 {
+  height: 70px;
+  width: 70px;
+}
+
+@media (max-width: 400px){
+    .container{
+      grid-template-columns: 0.1fr 0.3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3px 0px;
+    }
+  }
+
+iframe {
+  margin: 70px 0 100px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  #box-container {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tenor {
+    width: 33%;
+    height: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+  }
+
+  #bass{
+    width: 33%;
+    height: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+  }
+
+  #valve {
+   width: 33%;
+   height: 70%;
+   margin-left: 10px;
+   margin-right: 10px;
+   text-align: center;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+    background-color: white;
+}
+
+h3 {
+  background-color: #f9e076;
+  padding: 20px 0 20px 0;
+  margin: 0;
+  border-color: black;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+button {
+  background-color: #fed000;
+  padding: 5px 15px;
+}
+
+#main {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#footer-ul {
+  display: flex;
+}
+
+#footer-li {
+    display: inline;
+    font-size: 16px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+#disclaimer {
+  text-align: center;
+}
